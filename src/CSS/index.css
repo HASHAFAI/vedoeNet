@@ -1,0 +1,199 @@
+body {
+    background-color: aliceblue;
+    margin-top: 60px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Start Navbar */
+.container-fluid .navbar {
+    background-color: #fff !important;
+}
+.fa-bars:before {cursor: pointer;}
+nav ul li a {
+    color: #F406FD !important;
+    box-shadow: none !important;
+}
+nav ul li a:hover {color: #6101fc !important;}
+
+nav .navbar-brand {font-size: 20px !important;}
+button {
+    color: #F406FD !important;
+    background-color: #fff !important;
+    border: solid 1px #F406FD !important;
+}
+#box-shadow:focus {box-shadow: none !important;}
+nav #a {
+    margin: 0 auto;
+    background-color: #6101fc;
+    color: #fff;
+}
+nav #a:hover {background-color: #F406FD;}
+
+nav .navbar-brand {
+    color: #F406FD !important;
+    font-size: 10px;
+}
+nav a span {color: #6101fc;}
+
+.navbar #button {box-shadow: none;}
+
+.navbar #button {
+    background-color: #F406FD !important;
+    color: #fff !important;
+}
+.navbar #button:hover {
+    background-color: #6101fc !important;
+    color: #fff !important;
+    border: 1px solid #6101fc !important;
+}
+.navbar #input {border: 2px solid #F406FD;}
+
+.navbar #input:focus {outline: none}
+body .container-fluid .search-input {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    border: none;
+    padding: 6px 23px;
+    height: 70px;
+    background-color: #eee;
+    color: #6101fc;
+    display: none;
+    z-index: 1;
+}
+.navbar .search-icon {
+    color: #F406FD;
+    cursor: pointer;
+    padding: 15px 10px;
+    display: none;
+}
+/* End Navbar */
+
+/* Start modal */
+.fade button {border: none !important;}
+.fade button:hover {color: #6101fc !important;}
+.modal-title {color: #6101fc;}
+form input {box-shadow: none !important;}
+.close:focus {outline: none;}
+
+.modal-footer button {
+    background-color: #F406FD !important;
+    color: #fff !important;
+}
+.modal-footer button:hover {
+    background-color: #6101fc !important;
+    color: #fff !important;
+}
+/* End model */
+
+/* Start List sidebar*/
+.list-group-item-action:hover {
+    background-color: #F406FD !important;
+    color: #fff;
+}
+.list-group-item-action:focus {
+    background-color: #6101fc;
+    color: #fff;
+}
+.sidebar {
+    position: fixed;
+    z-index: 4;
+    left: -15rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    overflow: hidden;
+}
+.sidebar .list-group {width: 15rem;}
+#worp.toggle .list-group {width: 0rem;}
+
+.layr {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 3;
+    display: none;
+}
+label{
+    width: 100% !important;
+}
+/* End List sidebar*/
+
+/*Start Uploaded-videos */
+#search-filter-icon {cursor: pointer;}
+.filter-column {display: none;}
+.Uploaded-videos {
+    color: #6101fc;
+    padding: 80px 0 10px;
+}
+.Uploaded-videos span {color: #F406FD;}
+/* End Uploaded-videos */
+
+/* Start Card */
+.card a img {height: 140px;}
+.card {border: solid 2px #6101fc;}
+.card:hover {border: solid 2px #F406FD;}
+.card .btn {text-align: left !important;}
+
+time {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    bottom: 180px;
+    left: 10px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 10px;
+}
+/* End Card */
+
+/* Start Footer */
+footer {
+    background-color: #6101fc;
+    background-size: auto;
+    background-position: center;
+}
+footer .overlay {
+    background-color: rgb(0, 0, 0, .7);
+    color: #fff;
+}
+#footer {
+    position: relative;
+    top: 50%;
+    width: 95%;
+}
+footer h3 a,
+footer h3 a:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+footer ul.row {
+    margin: 0 auto;
+    justify-content: center;
+    padding: 0 50px;
+}
+footer ul a {
+    background-color: #eee;
+    padding: 10px;
+    margin: 6px;
+}
+footer ul a:hover {background-color: #F406FD;}
+footer ul a i {
+    text-align: center;
+    justify-content: center;
+}
+footer ul a:hover i {
+    color: #fff !important;
+}
+footer .copy {
+    margin: 50px auto 0;
+}
+small a:hover,small a {color: #fff;}
+/* End Footer */
+
+/* Start FROM WORK */
+.color-1 {color: #6101fc;}
+.color-2 {color: #F406FD;}
+.active {color: #6101fc !important;}
+.color-1-h:hover {color: #6101fc !important;}
+.color-2-h:hover {color: #F406FD !important;}
+/* End From work */
